@@ -1,0 +1,25 @@
+{
+  "name": "jwhazel/wp-headless-be",
+  "description": "Bleeding edge headless plugin for Wordpress",
+  "autoload": {
+    "psr-4": {
+      "Jwhazel\\WpHeadlessBe\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jesse Hazel",
+      "email": "jwhazel@me.com"
+    }
+  ],
+  "require": {
+    "htmlburger/carbon-fields": "^3.3"
+  },
+  "extra": {
+    "installer-paths": {
+      "YOUR_DESIRED_LOCATION/vendor/{$vendor}/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }
+}
